@@ -1,7 +1,9 @@
 .page-header {
-    background-color: indigo;
+    background-color: #40104C;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -53,4 +55,18 @@ h1, h2, h3, h4 {
 
 #massaAlt{
     margin-top:22px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+#desaparidor {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    #desaparidor {
+        visibility: visible;
+    }
 }

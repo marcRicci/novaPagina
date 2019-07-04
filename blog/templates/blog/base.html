@@ -13,7 +13,10 @@
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus" id="massaAlt"></span></a>
             {% endif %}
-            <h1><a href="/">Home d'en Jaume</a></h1>
+            <div style="margin-top:7px;"><h1><a href="/">Home d'en Jaume</a></h1></div>
+            <img id="desaparidor" style="width: 200px; height: 100px; margin-right: -40px;"
+            alt="Image description"
+            src="{% static 'images/crestadenjaume.png' %}"/>
         </div>
         <div class="content container">
             <div class="row">
